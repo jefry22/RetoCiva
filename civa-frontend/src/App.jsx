@@ -1,14 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
-import { TablePagination } from './Components/TablePagination'
 import { Header } from './Components/Header'
+import Home from './Page/Home'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Header></Header>
-      <TablePagination></TablePagination>
+      <Home></Home>
     </>
   )
 }
